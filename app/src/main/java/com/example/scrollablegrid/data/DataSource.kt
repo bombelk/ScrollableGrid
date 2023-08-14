@@ -1,4 +1,7 @@
-package com.example.scrollablegrid
+package com.example.scrollablegrid.data
+
+import com.example.scrollablegrid.R
+import com.example.scrollablegrid.model.Topic
 
 object DataSource {
     val topics = listOf(
@@ -16,4 +19,5 @@ object DataSource {
         Topic(R.string.painting, 172, R.drawable.painting),
         Topic(R.string.photography, 321, R.drawable.photography),
         Topic(R.string.tech, 118, R.drawable.tech)
+    )
 }
